@@ -18,7 +18,7 @@ type NotesResponse = {
   items: Note[]
 }
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api'
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://securenote-zeta.vercel.app/api'
 
 function App() {
   const [username, setUsername] = useState('')
