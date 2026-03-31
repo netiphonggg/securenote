@@ -1,0 +1,118 @@
+.app {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 24px;
+  text-align: left;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin: 8px 0 20px;
+  color: #5f5f5f;
+}
+
+.panel {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 14px;
+  background: #fff;
+}
+
+.panel h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  gap: 8px;
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #0f172a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ghost {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.notes li {
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.notes h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.notes p {
+  margin: 0 0 8px;
+  white-space: pre-wrap;
+}
+
+.message {
+  margin: 0;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .app {
+    padding: 14px;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}
